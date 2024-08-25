@@ -1,12 +1,12 @@
 # INCS Lab Programs
 
-This repository contains the lab programs for the Information and Network Security (INCS) subject. The programs include implementations using Lex, Yacc, and C language. These are the practical exercises covered during the Flex Lab sessions.
+This repository contains the lab programs for the Compiler Design and System Software (CDSS) subject. The programs include implementations using Lex, Yacc, and C language. These are the practical exercises covered during the Compiler Design Lab sessions.
 
 ## Contents
 
 - **Lex Programs**: Programs written in Lex for lexical analysis.
 - **Yacc Programs**: Programs that use Yacc for parsing, along with Lex for lexical analysis.
-- **C Programs**: Various C programs related to INCS concepts.
+- **C Programs**: Various C programs related to Compiler Design concepts.
 
 ## Directory Structure
 
