@@ -1,0 +1,74 @@
+// Commands to Run the code
+1(a)
+lex program1.l
+ cc lex.yy.c -ll
+  ./a.out  
+
+1(b)
+lex program1b.l
+cc lex.yy.c -ll
+./a.out
+
+2(a)
+lex program2.l
+cc lex.yy.c -ll
+./a.out
+
+2(b)
+lex program2b.l
+cc lex.yy.c -ll
+./a.out
+
+3(a)
+lex program3.l
+cc lex.yy.c -ll
+./a.out
+
+3(b)
+lex program3.l
+cc lex.yy.c -ll
+./a.out
+
+4)
+lex program4.l       
+byacc -d program4.y 
+cc lex.yy.c y.tab.c -ll
+
+5)
+lex program5.l  
+byacc -d program5.y
+cc lex.yy.c y.tab.c -ll
+./a.out
+
+6)
+lex program6.l
+byacc -d program6.y
+cc lex.yy.c y.tab.c -ll
+./a.out
+
+7)
+cc program7.c
+./a.out
+
+8)
+gcc program8.c
+./a.out
+
+9)
+gcc program9.c
+./a.out
+
+10)
+gcc program10.c
+./a.out
+
+11)
+gcc forprogram11.c
+./a.out
+
+gcc recprogram11.c
+./a.out
+
+gcc doprogram11.c
+./a.out
+
